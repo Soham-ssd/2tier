@@ -19,7 +19,7 @@ resource "docker_container" "web" {
   gpus                                        = null
   group_add                                   = []
   hostname                                    = "ffd422da4f3e"
-  image                                       = "sha256:dd3b2a5dcb48ff61113592ed5ddd762581be4387c7bc552375a2159422aa6bf5"
+  image                                       = "mysql:5.6"
   init                                        = false
   ipc_mode                                    = "private"
   log_driver                                  = "json-file"
