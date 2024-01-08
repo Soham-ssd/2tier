@@ -19,7 +19,7 @@ resource "docker_container" "word" {
   gpus                                        = null
   group_add                                   = []
   hostname                                    = "bf396555ba6c"
-  image                                       = "sha256:9071407ed1c0ef5519f4b8fe8bd7d2c3ba6a5ea5e4970bf6e77d770ff624d3b9"
+  image                                       = "wordpress:latest"
   init                                        = false
   ipc_mode                                    = "private"
   log_driver                                  = "json-file"
