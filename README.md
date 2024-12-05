@@ -19,6 +19,7 @@ MYSQL_ROOT_PASSWORD=unnati
 
 Steps to follow
 
+##Install
 
 '''bash
 git clone  https://github.com/Soham-ssd/2tier
