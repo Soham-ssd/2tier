@@ -21,21 +21,21 @@ Steps to follow
 
 ##Install
 
-'''bash
+```bash
 git clone  https://github.com/Soham-ssd/2tier
-'''
-'''bash
+```
+```bash
 cd 2tier/
-'''
-'''bash
+```
+```bash
 terraform init
-'''
-'''bash
+```
+```bash
 terraform apply
-'''
+```
 The application will be availbe on port no 18080 .
 After the use/demo you can destroy the resource with the following command .
 
-'''bash
+```bash
 terraform destroy
-'''   
+```   
